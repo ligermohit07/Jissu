@@ -975,8 +975,12 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "fsub":
         #add back button
         buttons = [[
-            InlineKeyboardButton('🍁 Bᴜʏ Pʀᴇᴍɪᴜᴍ Pʟᴀɴ 🗽', callback_data='other')],
-            [InlineKeyboardButton('⇋ ʙᴀᴄᴋ ⇋', callback_data='start')]]
+            InlineKeyboardButton('🍁 Bᴜʏ Pʀᴇᴍɪᴜᴍ Pʟᴀɴ 🗽', callback_data='other')
+                  ],[
+            InlineKeyboardButton('🎟️Rᴇғᴇʀʀᴀʟ', callback_data='refff'),
+	      InlineKeyboardButton('Tᴀᴋᴇ Tʀɪᴀʟ⏲️', callback_data='give_plan'),
+                  ],[
+            InlineKeyboardButton('⇋ ʙᴀᴄᴋ ⇋', callback_data='start')]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
             text=script.FSUB_TXT,
@@ -1004,11 +1008,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('⚠️ DISCLAIMER⚠️', url='https://telegra.ph/iCrunch-Movies-04-18-6')
         ],[
-            InlineKeyboardButton('👥Support-Group', url='https://t.me/icrunch_support'),
-            InlineKeyboardButton('Movies Group 🍿', url='https://t.me/ipapkorn4')
+            InlineKeyboardButton('☎️Oᴡɴᴇʀ', url='https://t.me/icrunchbot'),
+            InlineKeyboardButton('Bᴀᴄᴋ-UP🆘', url='https://t.me/icrunchbots')
         ],[
-            InlineKeyboardButton('✨Back-UP', url='https://t.me/icrunch2007'),
-            InlineKeyboardButton('Contact☎️', url='https://t.me/icrunchbot')
+            InlineKeyboardButton(',🚧Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url='https://t.me/icrunch_support'),
+            InlineKeyboardButton('Mᴏᴠɪᴇs Gʀᴏᴜᴘ🍿', url='https://t.me/iPapKorn4')
         ],[
             InlineKeyboardButton("⇋ ʙᴀᴄᴋ ⇋", callback_data="start")
         ]]
@@ -1023,9 +1027,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
             btn = [[
                     InlineKeyboardButton("Support Group", url="https://t.me/iCrunch_Support")
                ],[
-                    InlineKeyboardButton("⇋ ʙᴀᴄᴋ ⇋", callback_data="about"),
+                    InlineKeyboardButton("⇋ 𝔹𝕒𝕔𝕜", callback_data="about"),
               
-                    InlineKeyboardButton("Home 🏠", callback_data="start")
+                    InlineKeyboardButton("ℍ𝕆𝕄𝔼 ⇋", callback_data="start")
                   ]]
             reply_markup = InlineKeyboardMarkup(btn)
             await query.message.edit_text(
