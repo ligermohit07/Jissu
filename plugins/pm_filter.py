@@ -820,7 +820,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 InlineKeyboardButton("⚙️Hᴇʟᴘ", callback_data='features'),
                 InlineKeyboardButton('Aʙᴏᴜᴛ💌', callback_data='Source')
                 ],[
-                InlineKeyboardButton('🍁Pʀᴇᴍɪᴜᴍ', callback_data='seeplans'),
+                InlineKeyboardButton('🍁Pʀᴇᴍɪᴜᴍ', callback_data='fsub'),
                 InlineKeyboardButton('Rᴜʟᴇꜱ📒', callback_data="about")
                 ]] 
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -974,7 +974,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "fsub":
         #add back button
         buttons = [[
-            InlineKeyboardButton('⇆ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘs ⇆', url=f'http://t.me/{temp.U_NAME}?startgroup=start')],
+            InlineKeyboardButton('🍁 Bᴜʏ Pʀᴇᴍɪᴜᴍ Pʟᴀɴ 🗽', callback_data='other')],
             [InlineKeyboardButton('⇋ ʙᴀᴄᴋ ⇋', callback_data='start')]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
