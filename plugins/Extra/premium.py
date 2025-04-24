@@ -57,8 +57,9 @@ async def check_plans_cmd(client, message):
         expiry_time = expiry_time.astimezone(pytz.timezone("Asia/Kolkata")).strftime("%I:%M:%S %p")  # Format time in IST (12-hour format)
         await message.reply_text(f"📝 <u>ʏᴏᴜʀ ᴘʀᴇᴍɪᴜᴍ ꜱᴜʙꜱᴄʀɪᴘᴛɪᴏɴ ᴅᴇᴛᴀɪʟꜱ</u> :\n\n👤 ᴜꜱᴇʀ ɴᴀᴍᴇ : {user}\n🏷️ ᴜꜱᴇʀ ɪᴅ : <code>{user_id}</code>\n⏱️ ᴇxᴘɪʀʏ ᴅᴀᴛᴇ : {expiry_date}\n⏱️ ᴇxᴘɪʀʏ ᴛɪᴍᴇ : {expiry_time}\n⏳ ʀᴇᴍᴀɪɴɪɴɢ ᴛɪᴍᴇ : {formatted_remaining_time}")
     else:
-        btn = [InlineKeyboardButton("💳 Cʜᴇᴄᴋᴏᴜᴛ Pʀᴇᴍɪᴜᴍ Pʟᴀɴꜱ 💳", callback_data="seeplans")],
-        ]
+        btn = [
+ InlineKeyboardButton("💳 Cʜᴇᴄᴋᴏᴜᴛ Pʀᴇᴍɪᴜᴍ Pʟᴀɴꜱ 💳", callback_data="seeplans")
+]
         reply_markup = InlineKeyboardMarkup(btn)
         await message.reply_text(f"ʜᴇʏ {mention},
 
