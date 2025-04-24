@@ -886,7 +886,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('📸 Sᴇɴᴅ Pᴀʏᴍᴇɴᴛ Sᴄʀᴇᴇɴꜱʜᴏᴛ 📸', url=f'https://t.me/icrunchbot')
         ],[
-            InlineKeyboardButton('⇋ 𝔹𝕒𝕔𝕜•', callback_data='fsub'),
+            InlineKeyboardButton('⇋ 𝔹𝕒𝕔𝕜', callback_data='fsub'),
             InlineKeyboardButton('ℍ𝕆𝕄𝔼 ⇋', callback_data='start')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -978,7 +978,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('🍁 Bᴜʏ Pʀᴇᴍɪᴜᴍ Pʟᴀɴ 🗽', callback_data='other')
                   ],[
             InlineKeyboardButton('🎟️Rᴇғᴇʀʀᴀʟ', callback_data='reffff'),
-	      InlineKeyboardButton('Tᴀᴋᴇ Tʀɪᴀʟ⏲️', callback_data='give_plan'),
+	      InlineKeyboardButton('Tᴀᴋᴇ Tʀɪᴀʟ⏲️', callback_data='give_trial'),
                   ],[
             InlineKeyboardButton('⇋ ʙᴀᴄᴋ ⇋', callback_data='start')]]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -1002,7 +1002,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             disable_web_page_preview = True
 	)
     elif query.data == "mydevelopers":
-        await query.answer("Meet the minds behind this bot:\n\n👨‍💻 @JISSHU_BOTS\n👨‍💻 @IM_JISSHU\n👨‍💻 @JOYBOY_ZORO\n👨‍💻 @TG_Anonymous_Official\n\n\n❤️ A big thank you for making this bot awesome!", show_alert=True)
+        await query.answer("Meet the minds behind this bot:\n\n👨‍💻 @FilmyWabX\n👨‍💻 @iCrunchBots\n\n\n❤️ A big thank you for making this bot awesome!", show_alert=True)
  
     elif query.data == "Source":
         buttons = [[
@@ -1011,7 +1011,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('☎️Oᴡɴᴇʀ', url='https://t.me/icrunchbot'),
             InlineKeyboardButton('Bᴀᴄᴋ-UP🆘', url='https://t.me/icrunchbots')
         ],[
-            InlineKeyboardButton(',🚧Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url='https://t.me/icrunch_support'),
+            InlineKeyboardButton('🚧Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url='https://t.me/icrunch_support'),
             InlineKeyboardButton('Mᴏᴠɪᴇs Gʀᴏᴜᴘ🍿', url='https://t.me/iPapKorn4')
         ],[
             InlineKeyboardButton("⇋ ʙᴀᴄᴋ ⇋", callback_data="start")
