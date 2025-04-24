@@ -821,7 +821,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 InlineKeyboardButton('Aʙᴏᴜᴛ💌', callback_data='Source')
                 ],[
                 InlineKeyboardButton('🍁Pʀᴇᴍɪᴜᴍ', callback_data='seeplans'),
-                InlineKeyboardButton('Rᴜʟᴇꜱ📒', callback_data="reffff")
+                InlineKeyboardButton('Rᴜʟᴇꜱ📒', callback_data="about")
                 ]] 
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -1022,9 +1022,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
 	
     elif query.data == "disclaimer":
             btn = [[
-                    InlineKeyboardButton("📲 ᴄᴏɴᴛᴀᴄᴛ ᴛᴏ ᴏᴡɴᴇʀ ", user_id = ADMINS[0])
-               ],[
                     InlineKeyboardButton("⇋ ʙᴀᴄᴋ ⇋", callback_data="about")
+               ],[
+                    InlineKeyboardButton("Home 🏠", callback_data="start")
                   ]]
             reply_markup = InlineKeyboardMarkup(btn)
             await query.message.edit_text(
