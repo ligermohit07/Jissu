@@ -908,7 +908,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     
     elif query.data == "features":
         buttons = [[
-              InlineKeyboardButton('Aᴅᴍɪɴ Cᴏᴍᴍᴀɴᴅs', callback_data='admincmd'),
+              InlineKeyboardButton('Aᴅᴍɪɴ Cᴏᴍᴍᴀɴᴅs', callback_data='mydevelopers'),
               InlineKeyboardButton('Iᴍᴀɢᴇ Tᴏ Lɪɴᴋ', callback_data='telegraph'),
               ], [
               InlineKeyboardButton('F-Sᴜʙ', callback_data='fsub'),
@@ -999,7 +999,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
             disable_web_page_preview = True
 	)
     elif query.data == "mydevelopers":
-        await query.answer("Meet the minds behind this bot:\n\n👨‍💻 @JISSHU_BOTS\n👨‍💻 @IM_JISSHU\n👨‍💻 @JOYBOY_ZORO\n👨‍💻 @TG_Anonymous_Official\n\n\n❤️ A big thank you for making this bot awesome!", show_alert=True)
+        await query.answer("♥️ Type Movie Names Like This 👇\n\n› ᴀᴠᴀᴛᴀʀ 2009 ✅
+› ᴀᴠᴀᴛᴀʀ ✅\n› ᴀᴠᴀᴛᴀʀ ᴍᴏᴠɪᴇ ❌\n
+› ᴀᴠᴀᴛᴀʀ ʜɪɴᴅɪ ᴅᴜʙʙᴇᴅ..❌\n\n♥️ Type Webseries Like This 👇\n\n
+› ᴠɪᴋɪɴɢs S01 ✅\n› ᴠɪᴋɪɴɢs S01E01 ✅\n› ᴠɪᴋɪɴɢs S01 ʜɪɴᴅɪ ᴅᴜʙʙ. ❌\n
+› ᴠɪᴋɪɴɢs sᴇᴀsᴏɴ 1 ❌
+\n\n\n if Movies Not Find In Database Send Movie Name In Support Group 🍿 \n
+Support Group:- @iCrunch_Support", show_alert=True)
  
     elif query.data == "Source":
         buttons = [[
