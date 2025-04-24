@@ -818,7 +818,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 InlineKeyboardButton('☘️Bots Update Channel🍀', url='https://t.me/icrunch_updates')
                 ],[
                 InlineKeyboardButton("⚙️Hᴇʟᴘ", callback_data='features'),
-                InlineKeyboardButton('Aʙᴏᴜᴛ💌', callback_data=f'about')
+                InlineKeyboardButton('Aʙᴏᴜᴛ💌', callback_data='Source')
                 ],[
                 InlineKeyboardButton('🍁Pʀᴇᴍɪᴜᴍ', callback_data='seeplans'),
                 InlineKeyboardButton('Rᴇғᴇʀ🎟️', callback_data="reffff")
