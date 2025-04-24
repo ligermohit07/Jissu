@@ -1005,11 +1005,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('⚠️ Disclaimer', url='https://telegra.ph/iCrunch-Movies-04-18-6')
         ],[
-            InlineKeyboardButton('⋞ ʙᴀᴄᴋ', callback_data='about'),
-            InlineKeyboardButton('• ᴄʟᴏsᴇ •', callback_data='start')
+            InlineKeyboardButton('👥Support-Group', url='https://t.me/icrunch_support'),
+            InlineKeyboardButton('Movies Group 🍿', url='https://t.me/ipapkorn4')
         ],[
-            InlineKeyboardButton('⋞ ʙᴀᴄᴋ', callback_data='about'),
-            InlineKeyboardButton('• ᴄʟᴏsᴇ •', callback_data='close_data')
+            InlineKeyboardButton('✨Back-UP', url='https://t.me/icrunch2007'),
+            InlineKeyboardButton('Contact☎️', url='https://t.me/icrunchbot')
+        ],[
+            InlineKeyboardButton("⇋ ʙᴀᴄᴋ ⇋", callback_data="start")
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
