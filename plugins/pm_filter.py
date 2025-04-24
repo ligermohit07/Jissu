@@ -988,10 +988,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
             script.ABOUT_TEXT.format(query.from_user.mention(),temp.B_LINK),
             reply_markup = InlineKeyboardMarkup(
                 [[
-			InlineKeyboardButton('‼️ ᴅɪꜱᴄʟᴀɪᴍᴇʀ ‼️', callback_data='disclaimer')
+			InlineKeyboardButton('🔍Search ', callback_data='disclaimer')
 		],[
-			InlineKeyboardButton('Sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ', callback_data='Source')
-                ],[
                         InlineKeyboardButton('My Developers 😎',callback_data='mydevelopers')
 		],[
 			InlineKeyboardButton('⋞ ʜᴏᴍᴇ', callback_data='start')]]
@@ -1003,7 +1001,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
  
     elif query.data == "Source":
         buttons = [[
-            InlineKeyboardButton('⚠️ Disclaimer', url='https://telegra.ph/iCrunch-Movies-04-18-6')
+            InlineKeyboardButton('⚠️ DISCLAIMER⚠️', url='https://telegra.ph/iCrunch-Movies-04-18-6')
         ],[
             InlineKeyboardButton('👥Support-Group', url='https://t.me/icrunch_support'),
             InlineKeyboardButton('Movies Group 🍿', url='https://t.me/ipapkorn4')
@@ -1022,6 +1020,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
 	
     elif query.data == "disclaimer":
             btn = [[
+                    InlineKeyboardButton("⇋ ʙᴀᴄᴋ ⇋", url="https://t.me/iCrunch_Support")
+               ],[
                     InlineKeyboardButton("⇋ ʙᴀᴄᴋ ⇋", callback_data="about")
                ],[
                     InlineKeyboardButton("Home 🏠", callback_data="start")
