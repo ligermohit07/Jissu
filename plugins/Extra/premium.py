@@ -61,9 +61,9 @@ async def check_plans_cmd(client, message):
  InlineKeyboardButton("💳 Cʜᴇᴄᴋᴏᴜᴛ Pʀᴇᴍɪᴜᴍ Pʟᴀɴꜱ 💳", callback_data="seeplans")
 ]
         reply_markup = InlineKeyboardMarkup(btn)
-        await message.reply_text(f"<b>Hᴇʏ Fʀɪᴇɴᴅ,
+        await message.reply_text(f"Hᴇʏ Fʀɪᴇɴᴅ,
 
-ʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴀ ᴀᴄᴛɪᴠᴇ ᴘʀᴇᴍɪᴜᴍ ᴘʟᴀɴ. ʙᴜʏ ᴏᴜʀ ꜱᴜʙꜱᴄʀɪᴘᴛɪᴏɴ ᴛᴏ ᴜꜱᴇ ᴘʀᴇᴍɪᴜᴍ ʙᴇɴᴇꜰɪᴛꜱ.</b>",reply_markup=reply_markup)
+ʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴀ ᴀᴄᴛɪᴠᴇ ᴘʀᴇᴍɪᴜᴍ ᴘʟᴀɴ. ʙᴜʏ ᴏᴜʀ ꜱᴜʙꜱᴄʀɪᴘᴛɪᴏɴ ᴛᴏ ᴜꜱᴇ ᴘʀᴇᴍɪᴜᴍ ʙᴇɴᴇꜰɪᴛꜱ.",reply_markup=reply_markup)
 
 
 @Client.on_message(filters.command("remove_premium"))
