@@ -207,7 +207,7 @@ async def start(client:Client, message):
                             InlineKeyboardButton('Aʙᴏᴜᴛ💌', callback_data=f'Source')
                         ],[
                             InlineKeyboardButton('🍁Pʀᴇᴍɪᴜᴍ', callback_data='seeplans'),
-                            InlineKeyboardButton('Rᴜʟᴇꜱ📒', callback_data="reffff")
+                            InlineKeyboardButton('Rᴜʟᴇꜱ📒', callback_data="about")
                         ]] 
         reply_markup = InlineKeyboardMarkup(buttons)
         m=await message.reply_sticker("CAACAgQAAxkBAAEn9_ZmGp1uf1a38UrDhitnjOOqL1oG3gAC9hAAAlC74FPEm2DxqNeOmB4E") 
@@ -266,7 +266,7 @@ async def start(client:Client, message):
                             InlineKeyboardButton('Aʙᴏᴜᴛ💌', callback_data=f'Source')
                         ],[
                             InlineKeyboardButton('🍁Pʀᴇᴍɪᴜᴍ', callback_data='seeplans'),
-                            InlineKeyboardButton('Rᴜʟᴇꜱ📒', callback_data="reffff")
+                            InlineKeyboardButton('Rᴜʟᴇꜱ📒', callback_data="about")
                         ]] 
         reply_markup = InlineKeyboardMarkup(buttons)
         return await message.reply_photo(photo=START_IMG, caption=script.START_TXT.format(message.from_user.mention, get_status(), message.from_user.id),
