@@ -1020,10 +1020,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
 	
     elif query.data == "disclaimer":
             btn = [[
-                    InlineKeyboardButton("⇋ ʙᴀᴄᴋ ⇋", url="https://t.me/iCrunch_Support")
+                    InlineKeyboardButton("Support Group", url="https://t.me/iCrunch_Support")
                ],[
-                    InlineKeyboardButton("⇋ ʙᴀᴄᴋ ⇋", callback_data="about")
-               ],[
+                    InlineKeyboardButton("⇋ ʙᴀᴄᴋ ⇋", callback_data="about"),
+              
                     InlineKeyboardButton("Home 🏠", callback_data="start")
                   ]]
             reply_markup = InlineKeyboardMarkup(btn)
