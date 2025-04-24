@@ -908,13 +908,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
     
     elif query.data == "features":
         buttons = [[
-              InlineKeyboardButton('Font', callback_data='font'),
+              InlineKeyboardButton('💀Admin💀', callback_data='admincmd'),
+              ], [
               InlineKeyboardButton('Iᴍᴀɢᴇ Tᴏ Lɪɴᴋ', callback_data='telegraph'),
+              InlineKeyboardButton('Gʀᴏᴜᴘ Sᴇᴛᴜᴘ', callback_data='earn'),
+              InlineKeyboardButton('Font', callback_data='font'),
               ], [
-              InlineKeyboardButton('F-Sᴜʙ', callback_data='fsub'),
-              InlineKeyboardButton('Gʀᴏᴜᴘ Sᴇᴛᴜᴘ', callback_data='earn')
-              ], [
-              InlineKeyboardButton('⋞ Back To Home', callback_data='start')
+              InlineKeyboardButton('⇋ Back To Home ⇋', callback_data='start')
               ]]
     
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -975,7 +975,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         #add back button
         buttons = [[
             InlineKeyboardButton('⇆ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘs ⇆', url=f'http://t.me/{temp.U_NAME}?startgroup=start')],
-            [InlineKeyboardButton('⋞ ʙᴀᴄᴋ', callback_data='features')]]
+            [InlineKeyboardButton('⇋ ʙᴀᴄᴋ ⇋', callback_data='start')]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
             text=script.FSUB_TXT,
@@ -992,7 +992,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
 		],[
                         InlineKeyboardButton('My Developers 😎',callback_data='mydevelopers')
 		],[
-			InlineKeyboardButton('⋞ ʜᴏᴍᴇ', callback_data='start')]]
+			InlineKeyboardButton('⇋ ʙᴀᴄᴋ ⇋', callback_data='start')]]
                 ),
             disable_web_page_preview = True
 	)
