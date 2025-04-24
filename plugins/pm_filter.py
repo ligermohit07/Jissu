@@ -815,7 +815,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
   
     elif query.data == "start":
         buttons = [[
-                InlineKeyboardButton('☆ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ☆', url=f'http://t.me/{temp.U_NAME}?startgroup=start')
+                InlineKeyboardButton('☘️Bots Update Channel🍀', url='http://t.me/icrunch_updates')
                 ],[
                 InlineKeyboardButton("⚙️Hᴇʟᴘ", callback_data='features'),
                 InlineKeyboardButton('Aʙᴏᴜᴛ💌', callback_data=f'about')
