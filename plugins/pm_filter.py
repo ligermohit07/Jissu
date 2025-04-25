@@ -846,12 +846,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
 	)
     elif query.data == "free":
         buttons = [[
-            InlineKeyboardButton('☆📸 𝙎𝙚𝙣𝙙 𝙨𝙘𝙧𝙚𝙚𝙣𝙨𝙝𝙤𝙩 📸☆', url=f'https://t.me/JisshuDeveloperBot')
+            InlineKeyboardButton('📷Sᴇɴᴅ Pᴀʏᴍᴇɴᴛ Sᴄʀᴇᴇɴꜱʜᴏᴛ📸', url=f'https://t.me/icrunchbot')
         ],[
-            InlineKeyboardButton('💎 𝗖𝘂𝘀𝘁𝗼𝗺 𝗣𝗹𝗮𝗻 💎', callback_data='other')
-        ],[
-            InlineKeyboardButton('• 𝗕𝗮𝗰𝗸 •', callback_data='broze'),
-            InlineKeyboardButton('• 𝗖𝗹𝗼𝘀𝗲 •', callback_data='close_data')
+            InlineKeyboardButton('🏷️Cʜᴇᴄᴋ Pʀᴏᴏғꜱ', url='https://t.me/payment_proof'),
+            InlineKeyboardButton('📪Cʟᴏꜱᴇ', callback_data='close_data')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)             
         await client.edit_message_media(
