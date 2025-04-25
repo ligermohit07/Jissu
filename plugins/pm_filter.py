@@ -910,7 +910,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('🪧Cʜᴇᴄᴋ Fᴜʟʟ Dᴏᴄᴜᴍᴇɴᴛᴀᴛɪᴏɴ🧱', url='https://t.me/iCrunch_Updates/6')
         ],[
             InlineKeyboardButton('🔐Aᴅᴍɪɴ', callback_data='admincmd'),
-            InlineKeyboardButton('Sᴛʏʟɪꜱʜ Fᴏɴᴛ🆎', ='font')
+            InlineKeyboardButton('Sᴛʏʟɪꜱʜ Fᴏɴᴛ🆎', callback_data='font')
         ],[
             InlineKeyboardButton('🀄Uꜱᴇʀ Cᴍᴅꜱ', callback_data='telegraph'),
             InlineKeyboardButton('Gʀᴏᴜᴘ SᴇᴛUᴘ💸', callback_data='earn')
