@@ -351,8 +351,8 @@ User - {}"""
 ➩ /grp_broadcast - Broadcast a message to all connected groups
 
 </blockquote></b>"""
-    
-            GROUP_TEXT = """<b><blockquote>
+
+    GROUP_TEXT = """<b><blockquote>
  --------------Set Verify-------------
 /set_verify {{website link}} {{website api}}
 /set_verify_2 {{website link}} {{website api}}
