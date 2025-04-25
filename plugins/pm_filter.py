@@ -978,7 +978,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('🍁 Bᴜʏ Pʀᴇᴍɪᴜᴍ Pʟᴀɴ 🗽', callback_data='other')
                   ],[
             InlineKeyboardButton('🎟️Rᴇғᴇʀʀᴀʟ', callback_data='reffff'),
-	      InlineKeyboardButton('Tᴀᴋᴇ Tʀɪᴀʟ⏲️', callback_data='give_trial'),
+	      InlineKeyboardButton('Tᴀᴋᴇ Tʀɪᴀʟ🪩', callback_data='give_trial'),
                   ],[
             InlineKeyboardButton('⇋ ʙᴀᴄᴋ ⇋', callback_data='start')]]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -993,9 +993,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
             script.ABOUT_TEXT.format(query.from_user.mention(),temp.B_LINK),
             reply_markup = InlineKeyboardMarkup(
                 [[
-			InlineKeyboardButton('🔍Search ', callback_data='disclaimer')
+			InlineKeyboardButton('⚠️ᴅɪꜱᴄʟᴀɪᴍᴇʀ🎗️, url='https://telegra.ph/iCrunch-Movies-04-18-6')    
 		],[
-                        InlineKeyboardButton('My Developers 😎',callback_data='mydevelopers')
+                        InlineKeyboardButton('📮ꜱᴇʀᴀᴄʜ', callback_data='disclaimer'),
+	      InlineKeyboardButton('ɴᴏᴛᴇ🎫', callback_data='mydevelopers'),
 		],[
 			InlineKeyboardButton('⇋ ʙᴀᴄᴋ ⇋', callback_data='start')]]
                 ),
@@ -1006,12 +1007,12 @@ async def cb_handler(client: Client, query: CallbackQuery):
  
     elif query.data == "Source":
         buttons = [[
-            InlineKeyboardButton('⚠️ DISCLAIMER⚠️', url='https://telegra.ph/iCrunch-Movies-04-18-6')
+            InlineKeyboardButton('🎬 Lᴀᴛᴇꜱᴛ Rᴇʟᴇᴀꜱᴇᴅ 📊', callback_data='trending')
         ],[
             InlineKeyboardButton('☎️Oᴡɴᴇʀ', url='https://t.me/icrunchbot'),
             InlineKeyboardButton('Bᴀᴄᴋ-UP🆘', url='https://t.me/icrunchbots')
         ],[
-            InlineKeyboardButton('🚧Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url='https://t.me/icrunch_support'),
+            InlineKeyboardButton('🃏Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url='https://t.me/icrunch_support'),
             InlineKeyboardButton('Mᴏᴠɪᴇs Gʀᴏᴜᴘ🍿', url='https://t.me/iPapKorn4')
         ],[
             InlineKeyboardButton("⇋ ʙᴀᴄᴋ ⇋", callback_data="start")
