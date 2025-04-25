@@ -161,7 +161,7 @@ async def plan(client, message):
 
         InlineKeyboardButton("☎️ Cᴏɴᴛᴀᴄᴛ Tᴏ Oᴡɴᴇʀ 🔮", url='https://t.me/icrunchbot')
           ],[
-        InlineKeyboardButton("📪 Cʟᴏꜱᴇ", callback_data="close_data"),
-        InlineKeyboardButton("Nᴇxᴛ 📭", callback_data='free')
+        InlineKeyboardButton("🏷️Cʜᴇᴄᴋ Pʀᴏᴏғꜱ", url="https://t.me/filmywabxx"),
+        InlineKeyboardButton("Cʟᴏꜱᴇ 📭", callback_data='close_data')
     ]]
-    await message.reply_photo(photo="https://graph.org/file/55a5392f88ec5a4bd3379.jpg", caption=script.PREPLANS_TXT.format(message.from_user.mention), reply_markup=InlineKeyboardMarkup(btn))
+    await message.reply_photo(photo="https://files.catbox.moe/zgmvan.jpg", caption=script.PREPLANS_TXT.format(message.from_user.mention), reply_markup=InlineKeyboardMarkup(btn))
