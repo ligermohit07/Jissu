@@ -993,7 +993,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             script.ABOUT_TEXT.format(query.from_user.mention(),temp.B_LINK),
             reply_markup = InlineKeyboardMarkup(
                 [[
-			InlineKeyboardButton('⚠️ᴅɪꜱᴄʟᴀɪᴍᴇʀ🎗️, url='https://telegra.ph/iCrunch-Movies-04-18-6')    
+			InlineKeyboardButton('⚠️ᴅɪꜱᴄʟᴀɪᴍᴇʀ🎗️', url='https://telegra.ph/iCrunch-Movies-04-18-6')    
 		],[
                         InlineKeyboardButton('📮ꜱᴇʀᴀᴄʜ', callback_data='disclaimer'),
 	      InlineKeyboardButton('ɴᴏᴛᴇ🎫', callback_data='mydevelopers'),
