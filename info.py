@@ -69,12 +69,12 @@ REQUEST_CHANNEL = int(request_channel) if request_channel and id_pattern.search(
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-START_IMG = (environ.get('START_IMG', 'https://files.catbox.moe/me09nm.jpg https://files.catbox.moe/fb0mmx.jpg https://files.catbox.moe/26slv0.jpg')).split()
+START_IMG = (environ.get('START_IMG', 'https://files.catbox.moe/me09nm.jpg https://files.catbox.moe/fb0mmx.jpg https://files.catbox.moe/26slv0.jpg https://files.catbox.moe/x9bf5g.jpg https://files.catbox.moe/eqh1xs.jpg')).split()
 FORCESUB_IMG = environ.get('FORCESUB_IMG', 'https://files.catbox.moe/z79tqo.jpg')
 REFER_PICS = (environ.get("REFER_PICS", "https://files.catbox.moe/pdovye.jpg")).split() 
-PAYPICS = (environ.get('PAYPICS', 'https://graph.org/file/f4db1c3ad3d9e38b328e6.jpg')).split()
+PAYPICS = (environ.get('PAYPICS', 'https://files.catbox.moe/x9bf5g.jpg')).split()
 SUBSCRIPTION = (environ.get('SUBSCRIPTION', 'https://graph.org/file/9f3f47c690bbcc67633c2.jpg'))
-REACTIONS = ["👀", "🔥", "😍", "🥰", "😇", "⚡"]
+REACTIONS = ["😇", "🎬", "👻", "🥰", "✨", "⚡"]
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 #---------------------------------------------------------------
@@ -91,13 +91,13 @@ FILE_CAPTION = environ.get('FILE_CAPTION', f'{script.FILE_CAPTION}')
 IMDB_TEMPLATE = environ.get('IMDB_TEMPLATE', f'{script.IMDB_TEMPLATE_TXT}')
 LONG_IMDB_DESCRIPTION = is_enabled('LONG_IMDB_DESCRIPTION', False)
 PROTECT_CONTENT = is_enabled('PROTECT_CONTENT', False)
-SPELL_CHECK = is_enabled('SPELL_CHECK', True)
+SPELL_CHECK = is_enabled('SPELL_CHECK', False)
 LINK_MODE = is_enabled('LINK_MODE', True)
 
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-STREAM_MODE = bool(environ.get('STREAM_MODE', True)) # Set True or Flase
+STREAM_MODE = bool(environ.get('STREAM_MODE', False)) # Set True or Flase
 # Online Stream and Download
 
 MULTI_CLIENT = False
@@ -107,7 +107,7 @@ if 'DYNO' in environ:
     ON_HEROKU = True
 else:
     ON_HEROKU = False
-URL = environ.get("FQDN", "https://spontaneous-kordula-chiragbravrs-bdd7f8ee.koyeb.app/")
+URL = environ.get("FQDN", "https://precise-julie-chiragbravrs-acc944ac.koyeb.app/")
 
 #---------------------------------------------------------------
 #---------------------------------------------------------------
