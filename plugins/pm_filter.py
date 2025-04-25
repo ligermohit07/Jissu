@@ -909,14 +909,16 @@ async def cb_handler(client: Client, query: CallbackQuery):
     
     elif query.data == "features":
         buttons = [[
-              InlineKeyboardButton('💀Admin💀', callback_data='admincmd'),
-              ], [
-              InlineKeyboardButton('Iᴍᴀɢᴇ Tᴏ Lɪɴᴋ', callback_data='telegraph'),
-              InlineKeyboardButton('Gʀᴏᴜᴘ Sᴇᴛᴜᴘ', callback_data='earn'),
-              InlineKeyboardButton('Font', callback_data='font'),
-              ], [
-              InlineKeyboardButton('⇋ Back To Home ⇋', callback_data='start')
-              ]]
+            InlineKeyboardButton('🪧Cʜᴇᴄᴋ Fᴜʟʟ Dᴏᴄᴜᴍᴇɴᴛᴀᴛɪᴏɴ🧱', url='https://t.me/iCrunch_Updates/6')
+        ],[
+            InlineKeyboardButton('🔐Aᴅᴍɪɴ', callback_data='admincmd'),
+            InlineKeyboardButton('Sᴛʏʟɪꜱʜ Fᴏɴᴛ🆎', ='font')
+        ],[
+            InlineKeyboardButton('🀄Uꜱᴇʀ Cᴍᴅꜱ', callback_data='telegraph'),
+            InlineKeyboardButton('Gʀᴏᴜᴘ SᴇᴛUᴘ💸', callback_data='earn')
+        ],[
+            InlineKeyboardButton("⇋ ʙᴀᴄᴋ ⇋", callback_data="start")
+        ]]
     
         reply_markup = InlineKeyboardMarkup(buttons)
     
