@@ -175,7 +175,7 @@ async def start(client:Client, message):
          #       newPoint = await db.get_point(refUserId)
              if AUTH_CHANNEL and await is_req_subscribed(client, message):
                         buttons = [[
-                            InlineKeyboardButton('☘️Bot Update Channel🍀', url='https://t.me/icrunch_update')
+                            InlineKeyboardButton('☘️ʙᴏᴛs ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ🍀', url='https://t.me/FilmyXupdateS')
                         ],[
                             InlineKeyboardButton("⚙️Hᴇʟᴘ", callback_data='features'),
                             InlineKeyboardButton('Aʙᴏᴜᴛ💌', callback_data=f'Source')
@@ -184,7 +184,7 @@ async def start(client:Client, message):
                             InlineKeyboardButton('Rᴜʟᴇꜱ📒', callback_data="about")
                         ]] 
                         reply_markup = InlineKeyboardMarkup(buttons)
-                        m=await message.reply_sticker("CAACAgQAAxkBAAEn9_ZmGp1uf1a38UrDhitnjOOqL1oG3gAC9hAAAlC74FPEm2DxqNeOmB4E") 
+                        m=await message.reply_sticker("CAACAgUAAxkBAAEQIvloC-wjzLQBFpfhzo1o1wex6t6SsAACuBYAAlq9SVcSEvaiXWtaUB4E") 
                         await asyncio.sleep(1)
                         await m.delete()
                         await message.reply_photo(photo=random.choice(START_IMG), caption=script.START_TXT.format(message.from_user.mention, get_status(), message.from_user.id),
@@ -201,7 +201,7 @@ async def start(client:Client, message):
             pass
     if len(message.command) != 2:
         buttons = [[
-                            InlineKeyboardButton('☘️Bots Update Channel🍀', url='https://t.me/icrunch_updates')
+                            InlineKeyboardButton('☘️ʙᴏᴛs ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ🍀', url='https://t.me/FilmyXupdateS')
                         ],[
                             InlineKeyboardButton("⚙️Hᴇʟᴘ", callback_data='features'),
                             InlineKeyboardButton('Aʙᴏᴜᴛ💌', callback_data=f'Source')
@@ -210,7 +210,7 @@ async def start(client:Client, message):
                             InlineKeyboardButton('Rᴜʟᴇꜱ📒', callback_data="about")
                         ]] 
         reply_markup = InlineKeyboardMarkup(buttons)
-        m=await message.reply_sticker("CAACAgQAAxkBAAEn9_ZmGp1uf1a38UrDhitnjOOqL1oG3gAC9hAAAlC74FPEm2DxqNeOmB4E") 
+        m=await message.reply_sticker("CAACAgUAAxkBAAEQIvloC-wjzLQBFpfhzo1o1wex6t6SsAACuBYAAlq9SVcSEvaiXWtaUB4E") 
         await asyncio.sleep(1)
         await m.delete()
         await message.reply_photo(photo=random.choice(START_IMG), caption=script.START_TXT.format(message.from_user.mention, get_status(), message.from_user.id),
@@ -260,7 +260,7 @@ async def start(client:Client, message):
 
     if len(message.command) == 2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
         buttons = [[
-            InlineKeyboardButton('☘️Bots Update Channel🍀', url='https://t.me/icrunch_updates')
+            InlineKeyboardButton('☘️ʙᴏᴛs ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ🍀', url='https://t.me/FilmyXupdateS')
                         ],[
                             InlineKeyboardButton("⚙️Hᴇʟᴘ", callback_data='features'),
                             InlineKeyboardButton('Aʙᴏᴜᴛ💌', callback_data=f'Source')
