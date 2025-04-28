@@ -815,7 +815,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
   
     elif query.data == "start":
         buttons = [[
-                InlineKeyboardButton('☘️ʙᴏᴛꜱ ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ🍀', url='https://t.me/FilmyWabX')
+                InlineKeyboardButton('☘️ʙᴏᴛꜱ ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ🍀', url='https://t.me/FilmyXupdates')
                 ],[
                 InlineKeyboardButton("⚙️Hᴇʟᴘ", callback_data='features'),
                 InlineKeyboardButton('Aʙᴏᴜᴛ💌', callback_data='Source')
@@ -908,7 +908,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     
     elif query.data == "features":
         buttons = [[
-            InlineKeyboardButton('🪧Cʜᴇᴄᴋ Fᴜʟʟ Dᴏᴄᴜᴍᴇɴᴛᴀᴛɪᴏɴ🧱', url='https://t.me/iCrunch_Updates/6')
+            InlineKeyboardButton('🪧Cʜᴇᴄᴋ Fᴜʟʟ Dᴏᴄᴜᴍᴇɴᴛᴀᴛɪᴏɴ🧱', url='https://t.me/HuwToDoo/10')
         ],[
             InlineKeyboardButton('🔐Aᴅᴍɪɴ', callback_data='admincmd'),
             InlineKeyboardButton('Sᴛʏʟɪꜱʜ Fᴏɴᴛ🆎', callback_data='font')
@@ -1013,7 +1013,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('☎️Oᴡɴᴇʀ', url='https://t.me/icrunchbot'),
             InlineKeyboardButton('Bᴀᴄᴋ-UP🆘', url='https://t.me/icrunchbots')
         ],[
-            InlineKeyboardButton('🃏Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url='https://t.me/icrunch_support'),
+            InlineKeyboardButton('🃏Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url='https://t.me/Mk_bot_Support'),
             InlineKeyboardButton('Mᴏᴠɪᴇs Gʀᴏᴜᴘ🍿', url='https://t.me/iPapKorn4')
         ],[
             InlineKeyboardButton("⇋ ʙᴀᴄᴋ ⇋", callback_data="start")
