@@ -69,7 +69,7 @@ REQUEST_CHANNEL = int(request_channel) if request_channel and id_pattern.search(
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-START_IMG = (environ.get('START_IMG', 'https://files.catbox.moe/me09nm.jpg https://files.catbox.moe/fb0mmx.jpg https://files.catbox.moe/26slv0.jpg https://files.catbox.moe/x9bf5g.jpg https://files.catbox.moe/eqh1xs.jpg')).split()
+START_IMG = (environ.get('START_IMG', 'https://files.catbox.moe/x9bf5g.jpg https://files.catbox.moe/26slv0.jpg https://files.catbox.moe/fb0mmx.jpg https://files.catbox.moe/me09nm.jpg')).split()
 FORCESUB_IMG = environ.get('FORCESUB_IMG', 'https://files.catbox.moe/z79tqo.jpg')
 REFER_PICS = (environ.get("REFER_PICS", "https://files.catbox.moe/pdovye.jpg")).split() 
 PAYPICS = (environ.get('PAYPICS', 'https://files.catbox.moe/x9bf5g.jpg')).split()
@@ -97,17 +97,17 @@ LINK_MODE = is_enabled('LINK_MODE', True)
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-STREAM_MODE = bool(environ.get('STREAM_MODE', False)) # Set True or Flase
+STREAM_MODE = bool(environ.get('STREAM_MODE', True)) # Set True or Flase
 # Online Stream and Download
 
-MULTI_CLIENT = False
+MULTI_CLIENT = True
 SLEEP_THRESHOLD = int(environ.get('SLEEP_THRESHOLD', '60'))
 PING_INTERVAL = int(environ.get("PING_INTERVAL", "1200"))  # 20 minutes
 if 'DYNO' in environ:
     ON_HEROKU = True
 else:
     ON_HEROKU = False
-URL = environ.get("FQDN", "https://precise-julie-chiragbravrs-acc944ac.koyeb.app/")
+URL = environ.get("FQDN", "")
 
 #---------------------------------------------------------------
 #---------------------------------------------------------------
