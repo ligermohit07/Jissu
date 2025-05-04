@@ -53,9 +53,9 @@ class script(object):
 › ᴠɪᴋɪɴɢꜱ ✔️ 
 › ᴠɪᴋɪɴɢꜱ ꜱ01 ✔️ 
 › ᴠɪᴋɪɴɢꜱ ꜱᴇᴀꜱᴏɴ 1 ❌  
-› ᴠɪᴋɪɴɢꜱ ᴡᴇʙ ꜱᴇʀɪᴇꜱ ❌    
+› ᴠɪᴋɪɴɢꜱ ᴡᴇʙ ꜱᴇʀɪᴇꜱ ❌   </b> 
 
-<blockquote> ➜ ɪғ ᴍᴏᴠɪᴇ/ꜱᴇʀɪᴇꜱ ɴᴏᴛ ғᴏᴜɴᴅ ɪɴ ᴅᴀᴛᴀʙᴀꜱᴇ ꜱᴇɴᴅ ɴᴀᴍᴇ ɪɴ Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ.</b> </blockquote>"""
+<blockquote> ➜<b> <a href='https://t.me/+tXwTcWDhkKthNWRl'>ɪғ ᴍᴏᴠɪᴇ/ꜱᴇʀɪᴇꜱ ɴᴏᴛ ғᴏᴜɴᴅ ɪɴ ᴅᴀᴛᴀʙᴀꜱᴇ ꜱᴇɴᴅ ɴᴀᴍᴇ ɪɴ Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ</a>.</b> </blockquote>"""
     
 
     ABOUT_TEXT = """<blockquote><b>ℍ𝕖𝕝𝕝𝕠 𝔽𝕣𝕚𝕖𝕟𝕕𝕤</blockquote>
@@ -131,7 +131,8 @@ User - {}"""
 <b>ʜᴇʏ {message.from_user.mention}, ʜᴇʀᴇ ɪꜱ ᴛʜᴇ ʀᴇꜱᴜʟᴛꜱ ꜰᴏʀ ʏᴏᴜʀ ǫᴜᴇʀʏ {search}.
 
 🍿 𝗧𝗶𝘁𝗹𝗲: {title} {release_date}
-🎭 𝗚𝗲𝗻𝗿𝗲𝘀: {genres}
+🎭 𝗚𝗲𝗻𝗿𝗲𝘀: {genres}
+
 ⭐ 𝗥𝗮𝘁𝗶𝗻𝗴: {rating} / 10</b>
 """
 
@@ -146,7 +147,7 @@ User - {}"""
 
 🍿 ɪғ ʏᴏᴜ ᴡᴀɴᴛ ᴛʜɪs ᴍᴏᴠɪᴇ ᴏʀ ᴡᴇʙsᴇʀɪᴇs sᴇɴᴅ ɪᴛ's ɴᴀᴍᴇ ɪɴ ᴏᴜʀ Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ
 
-🍂𝗚𝗿𝗼𝘂𝗽:- @iCrunch_Support</b>"""
+🍂𝗚𝗿𝗼𝘂𝗽:-</b> <b> <a href='https://t.me/+tXwTcWDhkKthNWRl'>iCrunch_Support</a></b>"""
     
     I_CUDNT = """🤧 𝗛𝗲𝗹𝗹𝗼 {}
 
